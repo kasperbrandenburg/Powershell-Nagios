@@ -1,5 +1,5 @@
 # Powershell-Nagios
-__Powershell Nagios module __ enabling monitor management
+_Powershell Nagios module _ enabling monitor management
 
 ## Compatibility
 
