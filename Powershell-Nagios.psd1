@@ -9,7 +9,7 @@
 @{
 
 # Script module or binary module file associated with this manifest.
- RootModule = '.\Powershell-Nagios.psm1'
+RootModule = '.\Powershell-Nagios.psm1'
 
 # Version number of this module.
 ModuleVersion = '0.0.0.1'
@@ -66,16 +66,16 @@ Description = 'Module for managing Nagios'
 # NestedModules = @()
 
 # Functions to export from this module
-FunctionsToExport = ''
+FunctionsToExport = '*-Nagios*'
 
 # Cmdlets to export from this module
-CmdletsToExport = '*'
+CmdletsToExport = '*-Nagios*'
 
 # Variables to export from this module
 VariablesToExport = '*'
 
 # Aliases to export from this module
-AliasesToExport = '*'
+AliasesToExport = '*-Nagios*'
 
 # DSC resources to export from this module
 # DscResourcesToExport = @()
@@ -114,7 +114,7 @@ PrivateData = @{
 # HelpInfoURI = ''
 
 # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
- DefaultCommandPrefix = 'Nagios'
+DefaultCommandPrefix = 'Nagios'
 
 }
 

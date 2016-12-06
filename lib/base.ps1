@@ -1,0 +1,3 @@
+Function Resume-NagiosCheck
+{
+}
